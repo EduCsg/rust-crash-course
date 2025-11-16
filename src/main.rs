@@ -2,8 +2,10 @@ mod arrays;
 mod conditionals;
 mod functions;
 mod loops;
+mod pointer_ref;
 mod print;
 mod strings;
+mod structs;
 mod tuples;
 mod types;
 mod variables;
@@ -20,4 +22,6 @@ fn main() {
     conditionals::run();
     loops::run();
     functions::run();
+    pointer_ref::run();
+    structs::run();
 }
